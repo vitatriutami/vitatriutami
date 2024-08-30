@@ -1,6 +1,6 @@
-# Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="35" height="35" />
+# 🌸✨ Hi there! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="35" height="35" /> ✨🌸
 
-I'm Vita,
+I'm Vita – a coder with a flair for creativity and a love for learning.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Canoe.png" alt="Canoe" width="50" height="50" />  &nbsp; Activity Data
 
