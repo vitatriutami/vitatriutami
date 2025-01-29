@@ -8,15 +8,15 @@
 
 <h2 align="center"> <img src="https://github.com/monarahmati/monarahmati/assets/107634745/66e9ef23-64b3-4b35-b00d-7d59d72437e1" height="30" alt="coffee"  />&nbsp; I program with </h2> 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js" title="JavaScript" width="40">
-  <img src="https://skillicons.dev/icons?i=ts" title="TypeScript" width="40">
-  <img src="https://skillicons.dev/icons?i=html" title="HTML" width="40">
-  <img src="https://skillicons.dev/icons?i=css" title="CSS" width="40">
-  <img src="https://skillicons.dev/icons?i=nodejs" title="Node.js" width="40">
-  <img src="https://skillicons.dev/icons?i=py" title="Python" width="40">
-  <img src="https://skillicons.dev/icons?i=tailwind" title="Tailwind CSS" width="40">
+  <img src="https://skillicons.dev/icons?i=js&theme=light" title="JavaScript" width="40">
+  <img src="https://skillicons.dev/icons?i=ts&theme=light" title="TypeScript" width="40">
+  <img src="https://skillicons.dev/icons?i=html&theme=light" title="HTML" width="40">
+  <img src="https://skillicons.dev/icons?i=css&theme=light" title="CSS" width="40">
+  <img src="https://skillicons.dev/icons?i=nodejs&theme=light" title="Node.js" width="40">
+  <img src="https://skillicons.dev/icons?i=py&theme=light" title="Python" width="40">
+  <img src="https://skillicons.dev/icons?i=tailwind&theme=light" title="Tailwind CSS" width="40">
   <br/>
-  <img src="https://skillicons.dev/icons?i=react" title="React.js" width="40">
+  <img src="https://skillicons.dev/icons?i=react&theme=light" title="React.js" width="40">
   <img src="https://skillicons.dev/icons?i=nextjs" title="Next.js" width="40">
   <img src="https://skillicons.dev/icons?i=vue" title="Vue.js" width="40">
   <img src="https://skillicons.dev/icons?i=angular" title="Angular" width="40">
