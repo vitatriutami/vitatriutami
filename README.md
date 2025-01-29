@@ -24,11 +24,12 @@
   <img src="https://skillicons.dev/icons?i=figma" title="Figma" width="50">
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/discord-status.svg" alt="Discord Status">
-  <img src="https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/spotify-status.svg" alt="Spotify">
-  <img src="https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/vscode-status.svg" alt="VS Code">
-</p>
+
+  ![Discord Status](https://img.shields.io/badge/Discord-Loading-blue?logo=discord)
+  ![Spotify](https://img.shields.io/badge/Spotify-Loading-blue?logo=spotify)
+  ![VS Code](https://img.shields.io/badge/VS_Code-Loading-blue?logo=visualstudiocode)
+
+
 
 
 
