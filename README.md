@@ -6,7 +6,10 @@
 
 <h2 align="center" style="vertical-align: middle;">
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Tropical%20Drink.png" alt="Tropical Drink" height="35" />
-    &nbsp;I program with
+    &nbsp;
+    <p>
+    I program with
+    </p>
 </h2>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js&theme=light" title="JavaScript" width="40">
