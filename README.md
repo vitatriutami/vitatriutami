@@ -17,9 +17,7 @@
 <details>
   <summary>
       <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Canoe.png" alt="Canoe" width="40" height="40" />
-      <span style="font-size: 28px; font-weight: bold;">
-      Activity Data
-    </span>
+      <h3>Activity Data</h3>
   </summary>
 
   <div align="center">
