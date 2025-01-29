@@ -1,8 +1,6 @@
 # 🌸 Hi there! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="35" height="35" /> 🌸
 
-**I'm Vita** – a frontend-focused fullstack developer and maker who enjoys building intuitive and engaging digital experiences. I love experimenting with new technologies and working on creative, impactful projects.
-
-🎀 In my free time, I tinker with random ideas, turning them into functional tools, apps, and web experiences. Always learning, improving, and pushing the boundaries of what's possible!
+**I'm Vita** – a frontend-focused fullstack developer and maker who enjoys building intuitive and engaging digital experiences. I love experimenting with new technologies and working on creative, impactful projects. 🎀
 
 💡 Let's connect and build something great!
 
