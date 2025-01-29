@@ -25,9 +25,9 @@
 </p>
 
 
-  ![Discord Status](https://img.shields.io/badge/Discord-Loading-blue?logo=discord)
-  ![Spotify](https://img.shields.io/badge/Spotify-Loading-blue?logo=spotify)
-  ![VS Code](https://img.shields.io/badge/VS_Code-Loading-blue?logo=visualstudiocode)
+  ![Discord Status](https://img.shields.io/badge/Discord-Online-brightgreen?logo=discord)
+  ![Spotify](https://img.shields.io/badge/Spotify-Not_Listening-lightgrey?logo=spotify)
+  ![VS Code](https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode)
 
 
 
