@@ -17,19 +17,19 @@
   <img src="https://skillicons.dev/icons?i=tailwind&theme=light" title="Tailwind CSS" width="40">
   <br/>
   <img src="https://skillicons.dev/icons?i=react&theme=light" title="React.js" width="40">
-  <img src="https://skillicons.dev/icons?i=nextjs" title="Next.js" width="40">
-  <img src="https://skillicons.dev/icons?i=vue" title="Vue.js" width="40">
-  <img src="https://skillicons.dev/icons?i=angular" title="Angular" width="40">
-  <img src="https://skillicons.dev/icons?i=mongodb" title="MongoDB" width="40">
-  <img src="https://skillicons.dev/icons?i=prisma" title="Prisma ORM" width="40">
-  <img src="https://skillicons.dev/icons?i=docker" title="Docker" width="40">
-  <img src="https://skillicons.dev/icons?i=figma" title="Figma" width="40">
+  <img src="https://skillicons.dev/icons?i=nextjs&theme=light" title="Next.js" width="40">
+  <img src="https://skillicons.dev/icons?i=vue&theme=light" title="Vue.js" width="40">
+  <img src="https://skillicons.dev/icons?i=angular&theme=light" title="Angular" width="40">
+  <img src="https://skillicons.dev/icons?i=mongodb&theme=light" title="MongoDB" width="40">
+  <img src="https://skillicons.dev/icons?i=prisma&theme=light" title="Prisma ORM" width="40">
+  <img src="https://skillicons.dev/icons?i=docker&theme=light" title="Docker" width="40">
+  <img src="https://skillicons.dev/icons?i=figma&theme=light" title="Figma" width="40">
   <br />
-  <img src="https://skillicons.dev/icons?i=aws" title="AWS" width="40">
-  <img src="https://skillicons.dev/icons?i=firebase" title="Firebase" width="40">
-  <img src="https://skillicons.dev/icons?i=nginx" title="Nginx" width="40">
-  <img src="https://skillicons.dev/icons?i=cypress" title="Cypress" width="40">
-  <img src="https://skillicons.dev/icons?i=jest" title="Jest" width="40">
+  <img src="https://skillicons.dev/icons?i=aws&theme=light" title="AWS" width="40">
+  <img src="https://skillicons.dev/icons?i=firebase&theme=light" title="Firebase" width="40">
+  <img src="https://skillicons.dev/icons?i=nginx&theme=light" title="Nginx" width="40">
+  <img src="https://skillicons.dev/icons?i=cypress&theme=light" title="Cypress" width="40">
+  <img src="https://skillicons.dev/icons?i=jest&theme=light" title="Jest" width="40">
   
 </p>
 
