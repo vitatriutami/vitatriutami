@@ -6,7 +6,23 @@
 
 💡 Let's connect and build something great!
 
-[![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,nodejs,py,tailwind,react,nextjs,vue,angular,mongodb,prisma,docker,figma)](https://skillicons.dev)<br/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js" title="JavaScript" width="50">
+  <img src="https://skillicons.dev/icons?i=ts" title="TypeScript" width="50">
+  <img src="https://skillicons.dev/icons?i=html" title="HTML" width="50">
+  <img src="https://skillicons.dev/icons?i=css" title="CSS" width="50">
+  <img src="https://skillicons.dev/icons?i=nodejs" title="Node.js" width="50">
+  <img src="https://skillicons.dev/icons?i=py" title="Python" width="50">
+  <img src="https://skillicons.dev/icons?i=tailwind" title="Tailwind CSS" width="50">
+  <img src="https://skillicons.dev/icons?i=react" title="React.js" width="50">
+  <img src="https://skillicons.dev/icons?i=nextjs" title="Next.js" width="50">
+  <img src="https://skillicons.dev/icons?i=vue" title="Vue.js" width="50">
+  <img src="https://skillicons.dev/icons?i=angular" title="Angular" width="50">
+  <img src="https://skillicons.dev/icons?i=mongodb" title="MongoDB" width="50">
+  <img src="https://skillicons.dev/icons?i=prisma" title="Prisma ORM" width="50">
+  <img src="https://skillicons.dev/icons?i=docker" title="Docker" width="50">
+  <img src="https://skillicons.dev/icons?i=figma" title="Figma" width="50">
+</p>
 
 ![Discord Status](https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/discord-status.svg)
 ![VS Code](https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/vscode-status.svg)
