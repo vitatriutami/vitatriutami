@@ -32,8 +32,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Discord-Offline-lightgrey?logo=discord" alt="Discord Status">
-  <img src="https://img.shields.io/badge/Spotify-Not_Listening-lightgrey?logo=spotify" alt="Spotify">
+  <img src="https://img.shields.io/badge/Discord-Online-brightgreen?logo=discord" alt="Discord Status">
+  <img src="https://img.shields.io/badge/Spotify-Listening_to_我多喜歡你,你會知道(網劇<致我們單純的小美好>推廣曲)-brightgreen?logo=spotify" alt="Spotify">
   <img src="https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode" alt="VS Code">
 </p>
 
