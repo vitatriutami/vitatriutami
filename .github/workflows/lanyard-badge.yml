@@ -1,14 +1,14 @@
 name: Generate Lanyard Badges
 on:
   schedule:
-    - cron: "*/5 * * * *" # Update setiap 5 menit
-  workflow_dispatch: # Bisa dijalankan manual juga
+    - cron: "*/5 * * * *" 
+  workflow_dispatch: 
 
 jobs:
   generate-badges:
     runs-on: ubuntu-latest
     permissions: 
-      contents: write # Memberikan izin push ke repo
+      contents: write 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -16,26 +16,34 @@ jobs:
       - name: Fetch Discord Data from Lanyard
         run: |
           DATA=$(curl -s https://api.lanyard.rest/v1/users/788036014202945546)
-          
+
           # Get Discord Status
           STATUS=$(echo $DATA | jq -r '.data.discord_status')
-          if [[ "$STATUS" == "online" ]]; then COLOR="brightgreen"
-          elif [[ "$STATUS" == "idle" ]]; then COLOR="yellow"
-          elif [[ "$STATUS" == "dnd" ]]; then COLOR="red"
-          else COLOR="lightgrey"
+          if [[ "$STATUS" == "online" ]]; then 
+            COLOR="brightgreen"
+            STATUS_TEXT="Online"
+          elif [[ "$STATUS" == "idle" ]]; then 
+            COLOR="yellow"
+            STATUS_TEXT="Idle"
+          elif [[ "$STATUS" == "dnd" ]]; then 
+            COLOR="red"
+            STATUS_TEXT="Do Not Disturb"
+          else 
+            COLOR="lightgrey"
+            STATUS_TEXT="Offline"
           fi
-          echo "<svg xmlns='http://www.w3.org/2000/svg' width='150' height='20'><rect width='150' height='20' fill='$COLOR'/><text x='50%' y='14' fill='white' font-size='12' text-anchor='middle'>Discord: $STATUS</text></svg>" > discord-status.svg
+          echo "![Discord Status](https://img.shields.io/badge/Discord-$STATUS_TEXT-$COLOR?logo=discord)" > discord-status.md
           
           # Get Spotify Status
           SPOTIFY=$(echo $DATA | jq -r '.data.spotify.track_id')
           if [[ "$SPOTIFY" != "null" ]]; then
-            SPOTIFY_TEXT="Listening to $(echo $DATA | jq -r '.data.spotify.song')"
+            SPOTIFY_TEXT="Listening: $(echo $DATA | jq -r '.data.spotify.song')"
             COLOR="brightgreen"
           else
             SPOTIFY_TEXT="Not Listening"
             COLOR="lightgrey"
           fi
-          echo "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='20'><rect width='200' height='20' fill='$COLOR'/><text x='50%' y='14' fill='white' font-size='12' text-anchor='middle'>$SPOTIFY_TEXT</text></svg>" > spotify-status.svg
+          echo "![Spotify](https://img.shields.io/badge/Spotify-$SPOTIFY_TEXT-$COLOR?logo=spotify)" > spotify-status.md
           
           # Get VS Code Status
           EDITOR=$(echo $DATA | jq -r '.data.activities[] | select(.name=="Visual Studio Code") | .name')
@@ -46,12 +54,12 @@ jobs:
             VS_TEXT="Not Coding"
             COLOR="lightgrey"
           fi
-          echo "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='20'><rect width='200' height='20' fill='$COLOR'/><text x='50%' y='14' fill='white' font-size='12' text-anchor='middle'>$VS_TEXT</text></svg>" > vscode-status.svg
+          echo "![VS Code](https://img.shields.io/badge/VS_Code-$VS_TEXT-$COLOR?logo=visualstudiocode)" > vscode-status.md
 
       - name: Commit and Push Badges
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add discord-status.svg spotify-status.svg vscode-status.svg
+          git add discord-status.md spotify-status.md vscode-status.md
           git commit -m "Update Discord, Spotify, and VS Code badges" || exit 0
           git push
