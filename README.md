@@ -5,7 +5,7 @@
 💡 Let's connect and build something great!
 
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Tropical%20Drink.png" alt="Tropical Drink" height="35" style="vertical-align: middle;" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Tropical%20Drink.png" alt="Tropical Drink" height="35" />
   <span style="vertical-align: middle;">I program with</span>
 </h2>
 <p align="center">
