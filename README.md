@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Discord-Idle-yellow?logo=discord" alt="Discord Status">
+  <img src="https://img.shields.io/badge/Discord-Offline-lightgrey?logo=discord" alt="Discord Status">
   <img src="https://img.shields.io/badge/Spotify-Not_Listening-lightgrey?logo=spotify" alt="Spotify">
   <img src="https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode" alt="VS Code">
 </p>
