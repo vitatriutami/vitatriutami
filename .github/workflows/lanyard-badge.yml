@@ -1,14 +1,14 @@
 name: Generate Lanyard Badges
 on:
   schedule:
-    - cron: "*/5 * * * *" 
-  workflow_dispatch: 
+    - cron: "*/5 * * * *" # Update setiap 5 menit
+  workflow_dispatch: # Bisa dijalankan manual juga
 
 jobs:
   generate-badges:
     runs-on: ubuntu-latest
     permissions: 
-      contents: write 
+      contents: write # Memberikan izin push ke repo
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -32,34 +32,35 @@ jobs:
             COLOR="lightgrey"
             STATUS_TEXT="Offline"
           fi
-          echo "![Discord Status](https://img.shields.io/badge/Discord-$STATUS_TEXT-$COLOR?logo=discord)" > discord-status.md
+          echo "<img src='https://img.shields.io/badge/Discord-${STATUS_TEXT// /%20}-${COLOR}?logo=discord'/>" > discord-status.svg
           
           # Get Spotify Status
           SPOTIFY=$(echo $DATA | jq -r '.data.spotify.track_id')
           if [[ "$SPOTIFY" != "null" ]]; then
-            SPOTIFY_TEXT="Listening: $(echo $DATA | jq -r '.data.spotify.song')"
+            SONG=$(echo $DATA | jq -r '.data.spotify.song' | sed 's/ /%20/g')
+            SPOTIFY_TEXT="Listening:%20$SONG"
             COLOR="brightgreen"
           else
-            SPOTIFY_TEXT="Not Listening"
+            SPOTIFY_TEXT="Not%20Listening"
             COLOR="lightgrey"
           fi
-          echo "![Spotify](https://img.shields.io/badge/Spotify-$SPOTIFY_TEXT-$COLOR?logo=spotify)" > spotify-status.md
+          echo "<img src='https://img.shields.io/badge/Spotify-$SPOTIFY_TEXT-$COLOR?logo=spotify'/>" > spotify-status.svg
           
           # Get VS Code Status
           EDITOR=$(echo $DATA | jq -r '.data.activities[] | select(.name=="Visual Studio Code") | .name')
           if [[ "$EDITOR" == "Visual Studio Code" ]]; then
-            VS_TEXT="Coding in VS Code"
+            VS_TEXT="Coding%20in%20VS%20Code"
             COLOR="blue"
           else
-            VS_TEXT="Not Coding"
+            VS_TEXT="Not%20Coding"
             COLOR="lightgrey"
           fi
-          echo "![VS Code](https://img.shields.io/badge/VS_Code-$VS_TEXT-$COLOR?logo=visualstudiocode)" > vscode-status.md
+          echo "<img src='https://img.shields.io/badge/VS_Code-$VS_TEXT-$COLOR?logo=visualstudiocode'/>" > vscode-status.svg
 
       - name: Commit and Push Badges
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add discord-status.md spotify-status.md vscode-status.md
+          git add discord-status.svg spotify-status.svg vscode-status.svg
           git commit -m "Update Discord, Spotify, and VS Code badges" || exit 0
           git push
