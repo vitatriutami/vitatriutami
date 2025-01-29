@@ -8,10 +8,7 @@
 
 [![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,nodejs,py,tailwind,react,nextjs,vue,angular,mongodb,prisma,docker,figma)](https://skillicons.dev)<br/>
 
-![status](https://nocache.advaith.workers.dev?url=https://img.shields.io/endpoint?url=https://dev.discordprofiles.me/api/badge/status/788036014202945546?simple=true)
-![playing](https://nocache.advaith.workers.dev?url=https://img.shields.io/endpoint?url=https://dev.discordprofiles.me/api/badge/playing/788036014202945546)
-![vscode](https://nocache.advaith.workers.dev?url=https://img.shields.io/endpoint?url=https://dev.discordprofiles.me/api/badge/vscode/788036014202945546)
-[![spotify](https://nocache.advaith.workers.dev?url=https://img.shields.io/endpoint?url=https://dev.discordprofiles.me/api/badge/spotify/788036014202945546)](https://dev.discordprofiles.me/openspotify/788036014202945546)
+[![Discord Presence](https://lanyard.cnrad.dev/api/788036014202945546)](https://discord.com/users/788036014202945546)
 
 
 <details>
