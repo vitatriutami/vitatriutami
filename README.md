@@ -8,7 +8,15 @@
 
 [![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,nodejs,py,tailwind,react,nextjs,vue,angular,mongodb,prisma,docker,figma)](https://skillicons.dev)<br/>
 
-![Discord Status](./discord-status.svg)
+### Discord Status
+![Discord Status](https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/discord-status.svg)
+
+### Spotify Activity
+![Spotify](https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/spotify-status.svg)
+
+### Coding Activity
+![VS Code](https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/vscode-status.svg)
+
 
 
 <details>
