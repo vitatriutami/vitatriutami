@@ -7,21 +7,21 @@
 💡 Let's connect and build something great!
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js" title="JavaScript" width="50">
-  <img src="https://skillicons.dev/icons?i=ts" title="TypeScript" width="50">
-  <img src="https://skillicons.dev/icons?i=html" title="HTML" width="50">
-  <img src="https://skillicons.dev/icons?i=css" title="CSS" width="50">
-  <img src="https://skillicons.dev/icons?i=nodejs" title="Node.js" width="50">
-  <img src="https://skillicons.dev/icons?i=py" title="Python" width="50">
-  <img src="https://skillicons.dev/icons?i=tailwind" title="Tailwind CSS" width="50">
-  <img src="https://skillicons.dev/icons?i=react" title="React.js" width="50">
-  <img src="https://skillicons.dev/icons?i=nextjs" title="Next.js" width="50">
-  <img src="https://skillicons.dev/icons?i=vue" title="Vue.js" width="50">
-  <img src="https://skillicons.dev/icons?i=angular" title="Angular" width="50">
-  <img src="https://skillicons.dev/icons?i=mongodb" title="MongoDB" width="50">
-  <img src="https://skillicons.dev/icons?i=prisma" title="Prisma ORM" width="50">
-  <img src="https://skillicons.dev/icons?i=docker" title="Docker" width="50">
-  <img src="https://skillicons.dev/icons?i=figma" title="Figma" width="50">
+  <img src="https://skillicons.dev/icons?i=js" title="JavaScript" width="40">
+  <img src="https://skillicons.dev/icons?i=ts" title="TypeScript" width="40">
+  <img src="https://skillicons.dev/icons?i=html" title="HTML" width="40">
+  <img src="https://skillicons.dev/icons?i=css" title="CSS" width="40">
+  <img src="https://skillicons.dev/icons?i=nodejs" title="Node.js" width="40">
+  <img src="https://skillicons.dev/icons?i=py" title="Python" width="40">
+  <img src="https://skillicons.dev/icons?i=tailwind" title="Tailwind CSS" width="40">
+  <img src="https://skillicons.dev/icons?i=react" title="React.js" width="40">
+  <img src="https://skillicons.dev/icons?i=nextjs" title="Next.js" width="40">
+  <img src="https://skillicons.dev/icons?i=vue" title="Vue.js" width="40">
+  <img src="https://skillicons.dev/icons?i=angular" title="Angular" width="40">
+  <img src="https://skillicons.dev/icons?i=mongodb" title="MongoDB" width="40">
+  <img src="https://skillicons.dev/icons?i=prisma" title="Prisma ORM" width="40">
+  <img src="https://skillicons.dev/icons?i=docker" title="Docker" width="40">
+  <img src="https://skillicons.dev/icons?i=figma" title="Figma" width="40">
 </p>
 
 <p align="center">
