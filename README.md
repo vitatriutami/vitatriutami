@@ -6,7 +6,7 @@
 
 💡 Let's connect and build something great!
 
-<h2 align="center"> <img src="https://github.com/monarahmati/monarahmati/assets/107634745/66e9ef23-64b3-4b35-b00d-7d59d72437e1" height="30" alt="coffee"  />&nbsp; I program with </h2> 
+<h2 align="center"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Tropical%20Drink.png" alt="Tropical Drink" height="35" />&nbsp; I program with </h2> 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js&theme=light" title="JavaScript" width="40">
   <img src="https://skillicons.dev/icons?i=ts&theme=light" title="TypeScript" width="40">
@@ -42,7 +42,7 @@
 <details>
   <summary>
     <h2>
-      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Canoe.png" alt="Canoe" width="40" height="40" /> &nbsp; Activity Data</h2>
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Canoe.png" alt="Canoe" width="40" height="40" />&nbsp; Activity Data</h2>
   </summary>
 
   <div align="center">
