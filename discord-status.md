@@ -1,1 +1,1 @@
-![Discord Status](https://img.shields.io/badge/Discord-Offline-lightgrey?logo=discord)
+![Discord Status](https://img.shields.io/badge/Discord-Online-brightgreen?logo=discord)
