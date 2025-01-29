@@ -6,7 +6,7 @@
 
 💡 Let's connect and build something great!
 
-<h2> <img src="https://github.com/monarahmati/monarahmati/assets/107634745/66e9ef23-64b3-4b35-b00d-7d59d72437e1" height="45" alt="coffee"  /> &nbsp;  I program with and experienced in leveraging </h2> 
+<h2> <img src="https://github.com/monarahmati/monarahmati/assets/107634745/66e9ef23-64b3-4b35-b00d-7d59d72437e1" height="45" alt="coffee"  /> &nbsp; I program with </h2> 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js" title="JavaScript" width="40">
   <img src="https://skillicons.dev/icons?i=ts" title="TypeScript" width="40">
@@ -15,6 +15,7 @@
   <img src="https://skillicons.dev/icons?i=nodejs" title="Node.js" width="40">
   <img src="https://skillicons.dev/icons?i=py" title="Python" width="40">
   <img src="https://skillicons.dev/icons?i=tailwind" title="Tailwind CSS" width="40">
+  <br/>
   <img src="https://skillicons.dev/icons?i=react" title="React.js" width="40">
   <img src="https://skillicons.dev/icons?i=nextjs" title="Next.js" width="40">
   <img src="https://skillicons.dev/icons?i=vue" title="Vue.js" width="40">
