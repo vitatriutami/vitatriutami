@@ -1,65 +1,60 @@
-name: Generate Lanyard Badges
+name: Update Lanyard Badges
 on:
   schedule:
-    - cron: "*/5 * * * *"
-  workflow_dispatch:
+    - cron: "*/5 * * * *"  # Jalankan setiap 5 menit
+  workflow_dispatch:  # Bisa dijalankan manual
 
 jobs:
-  generate-badges:
+  update-badges:
     runs-on: ubuntu-latest
-    permissions: 
-      contents: write
+    permissions:
+      contents: write  # Izinkan menulis ke repo
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch Discord Data from Lanyard
+      - name: Fetch Lanyard Data
         run: |
+          # Ambil data dari Lanyard API
           DATA=$(curl -s https://api.lanyard.rest/v1/users/788036014202945546)
-
-          # Get Discord Status
+          
+          # Update Discord Status
           STATUS=$(echo $DATA | jq -r '.data.discord_status')
-          if [[ "$STATUS" == "online" ]]; then 
-            COLOR="brightgreen"
-            STATUS_TEXT="Online"
-          elif [[ "$STATUS" == "idle" ]]; then 
-            COLOR="yellow"
-            STATUS_TEXT="Idle"
-          elif [[ "$STATUS" == "dnd" ]]; then 
-            COLOR="red"
-            STATUS_TEXT="Do Not Disturb"
-          else 
-            COLOR="lightgrey"
-            STATUS_TEXT="Offline"
-          fi
-          echo "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='30'><rect width='200' height='30' fill='$COLOR'/><text x='50%' y='20' fill='white' font-size='14' text-anchor='middle'>Discord: $STATUS_TEXT</text></svg>" > discord-status.svg
-          
-          # Get Spotify Status
-          SPOTIFY=$(echo $DATA | jq -r '.data.spotify.track_id')
-          if [[ "$SPOTIFY" != "null" ]]; then
-            SONG=$(echo $DATA | jq -r '.data.spotify.song')
-            COLOR="brightgreen"
+          if [[ "$STATUS" == "online" ]]; then
+            DISCORD_BADGE="https://img.shields.io/badge/Discord-Online-brightgreen?logo=discord"
+          elif [[ "$STATUS" == "idle" ]]; then
+            DISCORD_BADGE="https://img.shields.io/badge/Discord-Idle-yellow?logo=discord"
+          elif [[ "$STATUS" == "dnd" ]]; then
+            DISCORD_BADGE="https://img.shields.io/badge/Discord-Do_Not_Disturb-red?logo=discord"
           else
-            SONG="Not Listening"
-            COLOR="lightgrey"
+            DISCORD_BADGE="https://img.shields.io/badge/Discord-Offline-lightgrey?logo=discord"
           fi
-          echo "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='30'><rect width='200' height='30' fill='$COLOR'/><text x='50%' y='20' fill='white' font-size='14' text-anchor='middle'>Spotify: $SONG</text></svg>" > spotify-status.svg
-          
-          # Get VS Code Status
-          EDITOR=$(echo $DATA | jq -r '.data.activities[] | select(.name=="Visual Studio Code") | .name')
-          if [[ "$EDITOR" == "Visual Studio Code" ]]; then
-            VS_TEXT="Coding in VS Code"
-            COLOR="blue"
-          else
-            VS_TEXT="Not Coding"
-            COLOR="lightgrey"
-          fi
-          echo "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='30'><rect width='200' height='30' fill='$COLOR'/><text x='50%' y='20' fill='white' font-size='14' text-anchor='middle'>$VS_TEXT</text></svg>" > vscode-status.svg
 
-      - name: Commit and Push Badges
+          # Update Spotify Status
+          SPOTIFY=$(echo $DATA | jq -r '.data.spotify.song // empty')
+          if [[ -n "$SPOTIFY" ]]; then
+            SPOTIFY_BADGE="https://img.shields.io/badge/Spotify-Listening_to_${SPOTIFY// /_}-brightgreen?logo=spotify"
+          else
+            SPOTIFY_BADGE="https://img.shields.io/badge/Spotify-Not_Listening-lightgrey?logo=spotify"
+          fi
+
+          # Update VS Code Status
+          CODING=$(echo $DATA | jq -r '.data.activities[] | select(.name=="Visual Studio Code") | .name' || echo "Not Coding")
+          if [[ "$CODING" == "Visual Studio Code" ]]; then
+            VS_BADGE="https://img.shields.io/badge/VS_Code-Coding-blue?logo=visualstudiocode"
+          else
+            VS_BADGE="https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode"
+          fi
+
+          # Update README.md
+          sed -i "s|!\[Discord Status\](.*)|![Discord Status]($DISCORD_BADGE)|g" README.md
+          sed -i "s|!\[Spotify\](.*)|![Spotify]($SPOTIFY_BADGE)|g" README.md
+          sed -i "s|!\[VS Code\](.*)|![VS Code]($VS_BADGE)|g" README.md
+
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add discord-status.svg spotify-status.svg vscode-status.svg
-          git commit -m "Update Discord, Spotify, and VS Code badges" || exit 0
+          git add README.md
+          git commit -m "Update Lanyard status badges" || exit 0
           git push
