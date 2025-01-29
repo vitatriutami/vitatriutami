@@ -10,7 +10,7 @@
 
 ![Status](https://img.shields.io/endpoint?url=https://api.lanyard.rest/v1/users/788036014202945546&label=Status&message=Online)
 ![VS Code](https://img.shields.io/endpoint?url=https://api.lanyard.rest/v1/users/788036014202945546&label=VS%20Code&message=Active)
-[![Spotify](https://img.shields.io/endpoint?url=https://api.lanyard.rest/v1/users/788036014202945546&label=Spotify&message=Listening)](https://open.spotify.com/user/788036014202945546)
+[![Spotify](https://img.shields.io/endpoint?url=https://api.lanyard.rest/v1/users/788036014202945546&Spotify-Listening)](https://open.spotify.com/user/788036014202945546)
 
 
 <details>
