@@ -8,13 +8,10 @@
 
 [![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,nodejs,py,tailwind,react,nextjs,vue,angular,mongodb,prisma,docker,figma)](https://skillicons.dev)<br/>
 
-![Discord Status](https://img.shields.io/endpoint?url=https://api.lanyard.rest/v1/users/788036014202945546)
+![Status](https://img.shields.io/endpoint?url=https://api.lanyard.rest/v1/users/788036014202945546&label=Status&message=Online)
 ![status](https://nocache.advaith.workers.dev?url=https://img.shields.io/endpoint?url=https://dev.discordprofiles.me/api/badge/status/276544649148235776?simple=true)
-![playing](https://nocache.advaith.workers.dev?url=https://img.shields.io/endpoint?url=https://dev.discordprofiles.me/api/badge/playing/276544649148235776)
-![vscode](https://nocache.advaith.workers.dev?url=https://img.shields.io/endpoint?url=https://dev.discordprofiles.me/api/badge/vscode/276544649148235776)
-[![spotify](https://nocache.advaith.workers.dev?url=https://img.shields.io/endpoint?url=https://dev.discordprofiles.me/api/badge/spotify/276544649148235776)](https://dev.discordprofiles.me/openspotify/276544649148235776)
-
-
+![VS Code](https://img.shields.io/endpoint?url=https://api.lanyard.rest/v1/users/788036014202945546&label=VS%20Code&message=Active)
+[![Spotify](https://img.shields.io/endpoint?url=https://api.lanyard.rest/v1/users/788036014202945546&label=Spotify&message=Listening)](https://open.spotify.com/user/788036014202945546)
 
 
 <details>
