@@ -1,24 +1,24 @@
 name: Update Lanyard Badges
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Jalankan setiap 5 menit
-  workflow_dispatch:  # Bisa dijalankan manual
+    - cron: "*/5 * * * *"  # Run every 5 minutes
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   update-badges:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Izinkan menulis ke repo
+      contents: write  # Allow writing to the repo
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Fetch Lanyard Data
         run: |
-          # Ambil data dari Lanyard API
+          # Fetch data from Lanyard API
           DATA=$(curl -s https://api.lanyard.rest/v1/users/788036014202945546)
           
-          # Update Discord Status
+          # Update Discord Status Badge
           STATUS=$(echo $DATA | jq -r '.data.discord_status')
           if [[ "$STATUS" == "online" ]]; then
             DISCORD_BADGE="https://img.shields.io/badge/Discord-Online-brightgreen?logo=discord"
@@ -30,7 +30,7 @@ jobs:
             DISCORD_BADGE="https://img.shields.io/badge/Discord-Offline-lightgrey?logo=discord"
           fi
 
-          # Update Spotify Status
+          # Update Spotify Status Badge
           SPOTIFY=$(echo $DATA | jq -r '.data.spotify.song // empty')
           if [[ -n "$SPOTIFY" ]]; then
             SPOTIFY_BADGE="https://img.shields.io/badge/Spotify-Listening_to_${SPOTIFY// /_}-brightgreen?logo=spotify"
@@ -38,7 +38,7 @@ jobs:
             SPOTIFY_BADGE="https://img.shields.io/badge/Spotify-Not_Listening-lightgrey?logo=spotify"
           fi
 
-          # Update VS Code Status
+          # Update VS Code Status Badge
           CODING=$(echo $DATA | jq -r '.data.activities[] | select(.name=="Visual Studio Code") | .name' || echo "Not Coding")
           if [[ "$CODING" == "Visual Studio Code" ]]; then
             VS_BADGE="https://img.shields.io/badge/VS_Code-Coding-blue?logo=visualstudiocode"
@@ -46,10 +46,10 @@ jobs:
             VS_BADGE="https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode"
           fi
 
-          # Update README.md
-          sed -i "s|!\[Discord Status\](.*)|![Discord Status]($DISCORD_BADGE)|g" README.md
-          sed -i "s|!\[Spotify\](.*)|![Spotify]($SPOTIFY_BADGE)|g" README.md
-          sed -i "s|!\[VS Code\](.*)|![VS Code]($VS_BADGE)|g" README.md
+          # Update README.md badges in <img> tags
+          sed -i "s|<img src=\"https://img.shields.io/badge/Discord-.*?logo=discord\"|<img src=\"$DISCORD_BADGE\"|g" README.md
+          sed -i "s|<img src=\"https://img.shields.io/badge/Spotify-.*?logo=spotify\"|<img src=\"$SPOTIFY_BADGE\"|g" README.md
+          sed -i "s|<img src=\"https://img.shields.io/badge/VS_Code-.*?logo=visualstudiocode\"|<img src=\"$VS_BADGE\"|g" README.md
 
       - name: Commit and Push Changes
         run: |
