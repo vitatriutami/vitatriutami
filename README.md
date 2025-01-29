@@ -4,12 +4,13 @@
 
 💡 Let's connect and build something great!
 
-<table align="center">
+<table align="center" style="border-collapse: collapse;">
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Tropical%20Drink.png" alt="Tropical Drink" height="35"></td>
-    <td><h2>I program with</h2></td>
+    <td style="border: none;"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Tropical%20Drink.png" alt="Tropical Drink" height="35"></td>
+    <td style="border: none;"><h2>I program with</h2></td>
   </tr>
 </table>
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js&theme=light" title="JavaScript" width="40">
   <img src="https://skillicons.dev/icons?i=ts&theme=light" title="TypeScript" width="40">
