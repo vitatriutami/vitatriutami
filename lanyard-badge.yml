@@ -1,0 +1,34 @@
+name: Generate Lanyard Badge
+on:
+  schedule:
+    - cron: "*/5 * * * *" # Update setiap 5 menit
+  workflow_dispatch: # Bisa dijalankan manual juga
+
+jobs:
+  generate-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Discord Status from Lanyard
+        run: |
+          STATUS=$(curl -s https://api.lanyard.rest/v1/users/788036014202945546 | jq -r '.data.discord_status')
+          if [[ "$STATUS" == "online" ]]; then
+            COLOR="brightgreen"
+          elif [[ "$STATUS" == "idle" ]]; then
+            COLOR="yellow"
+          elif [[ "$STATUS" == "dnd" ]]; then
+            COLOR="red"
+          else
+            COLOR="lightgrey"
+          fi
+          echo "<svg xmlns='http://www.w3.org/2000/svg' width='150' height='20'><rect width='150' height='20' fill='$COLOR'/><text x='50%' y='14' fill='white' font-size='12' text-anchor='middle'>Discord: $STATUS</text></svg>" > discord-status.svg
+
+      - name: Commit and Push Badge
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add discord-status.svg
+          git commit -m "Update Discord status badge" || exit 0
+          git push
