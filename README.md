@@ -25,10 +25,11 @@
 </p>
 
 <p align="center">
-![Discord Status](https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/discord-status.svg)
-![VS Code](https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/vscode-status.svg)
-![Spotify](https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/spotify-status.svg)
+  <img src="https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/discord-status.svg" alt="Discord Status">
+  <img src="https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/vscode-status.svg" alt="VS Code">
+  <img src="https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/spotify-status.svg" alt="Spotify">
 </p>
+
 
 
 <details>
