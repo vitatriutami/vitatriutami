@@ -24,6 +24,13 @@
   <img src="https://skillicons.dev/icons?i=prisma" title="Prisma ORM" width="40">
   <img src="https://skillicons.dev/icons?i=docker" title="Docker" width="40">
   <img src="https://skillicons.dev/icons?i=figma" title="Figma" width="40">
+  <br />
+  <img src="https://skillicons.dev/icons?i=aws" title="AWS" width="40">
+  <img src="https://skillicons.dev/icons?i=firebase" title="Firebase" width="40">
+  <img src="https://skillicons.dev/icons?i=nginx" title="Nginx" width="40">
+  <img src="https://skillicons.dev/icons?i=cypress" title="Cypress" width="40">
+  <img src="https://skillicons.dev/icons?i=jest" title="Jest" width="40">
+  
 </p>
 
 <p align="center">
@@ -35,7 +42,7 @@
 <details>
   <summary>
       <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Canoe.png" alt="Canoe" width="40" height="40" />
-      <h3>Activity Data</h3>
+      <h2>%nbsp; Activity Data</h2>
   </summary>
 
   <div align="center">
