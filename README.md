@@ -24,13 +24,11 @@
   <img src="https://skillicons.dev/icons?i=figma" title="Figma" width="50">
 </p>
 
-  ![Discord Status](https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/discord-status.md)
-  ![Spotify](https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/spotify-status.md)
-  ![VS Code](https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/vscode-status.md)
-
-
-
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/discord-status.svg" alt="Discord Status">
+  <img src="https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/spotify-status.svg" alt="Spotify">
+  <img src="https://raw.githubusercontent.com/vitatriutami/vitatriutami/main/vscode-status.svg" alt="VS Code">
+</p>
 
 
 
