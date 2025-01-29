@@ -4,7 +4,10 @@
 
 💡 Let's connect and build something great!
 
-<h2 align="center"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Tropical%20Drink.png" alt="Tropical Drink" height="35" />&nbsp;I program with </h2> 
+<h2 align="center" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem;">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Tropical%20Drink.png" alt="Tropical Drink" height="35" />
+  &nbsp;I program with
+</h2>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js&theme=light" title="JavaScript" width="40">
   <img src="https://skillicons.dev/icons?i=ts&theme=light" title="TypeScript" width="40">
