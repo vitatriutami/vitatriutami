@@ -5,12 +5,10 @@
 💡 Let's connect and build something great!
 
 <h2 align="center">
-  <table>
-    <tr>
-      <td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Tropical%20Drink.png" alt="Tropical Drink" height="35"></td>
-      <td><strong>I program with</strong></td>
-    </tr>
-  </table>
+  <span>
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Tropical%20Drink.png" alt="Tropical Drink" height="35" style="vertical-align: middle;" />
+    &nbsp;I program with
+  </span>
 </h2>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js&theme=light" title="JavaScript" width="40">
