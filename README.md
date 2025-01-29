@@ -41,8 +41,8 @@
 
 <details>
   <summary>
-      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Canoe.png" alt="Canoe" width="40" height="40" />
-      <h2>%nbsp; Activity Data</h2>
+    <h2>
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Canoe.png" alt="Canoe" width="40" height="40" /> &nbsp; Activity Data</h2>
   </summary>
 
   <div align="center">
