@@ -24,14 +24,11 @@
   <img src="https://skillicons.dev/icons?i=figma" title="Figma" width="50">
 </p>
 
-
-  ![Discord Status](https://img.shields.io/badge/Discord-Online-brightgreen?logo=discord)
-  ![Spotify](https://img.shields.io/badge/Spotify-Not_Listening-lightgrey?logo=spotify)
-  ![VS Code](https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode)
-
-
-
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Discord-Online-brightgreen?logo=discord" alt="Discord Status">
+  <img src="https://img.shields.io/badge/Spotify-Not_Listening-lightgrey?logo=spotify?logo=spotify" alt="Spotify">
+  <img src="https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode" alt="VS Code">
+</p>
 
 <details>
   <summary>
