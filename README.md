@@ -8,7 +8,8 @@
 
 [![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,nodejs,py,tailwind,react,nextjs,vue,angular,mongodb,prisma,docker,figma)](https://skillicons.dev)<br/>
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/788036014202945546)](https://discord.com/users/788036014202945546)
+![Discord Status](https://img.shields.io/endpoint?url=https://api.lanyard.rest/v1/users/788036014202945546)
+
 
 
 <details>
