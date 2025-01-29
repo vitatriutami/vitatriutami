@@ -6,7 +6,6 @@
 
 <h2 align="center" style="vertical-align: middle;">
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Tropical%20Drink.png" alt="Tropical Drink" height="35" />
-    &nbsp;
     <p>
     I program with
     </p>
