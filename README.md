@@ -31,7 +31,7 @@
   <img src="https://skillicons.dev/icons?i=aws&theme=light" title="AWS" width="40">
   <img src="https://skillicons.dev/icons?i=firebase&theme=light" title="Firebase" width="40">
   <img src="https://skillicons.dev/icons?i=nginx&theme=light" title="Nginx" width="40">
-  <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*6ThaUrDxegmHvECIpvB2Qg.png" title="Storybook" width="40">
+  <img src="./square-format,-white-background,-shadow-designify-Photoroom%20(4)-modified.png" title="Storybook" width="40">
   <img src="https://skillicons.dev/icons?i=cypress&theme=light" title="Cypress" width="40">
   <img src="https://skillicons.dev/icons?i=jest&theme=light" title="Jest" width="40">
 </p>
