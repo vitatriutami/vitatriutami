@@ -39,7 +39,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Discord-Online-brightgreen?logo=discord" alt="Discord Status">
   <a href="https://open.spotify.com/user/31ec5fqncyhmbwxkbsadfef3giq4">
-  <img src="https://img.shields.io/badge/Spotify-Listening_to_For_You_-_電視劇「流星花園」片頭曲-brightgreen?logo=spotify" alt="Spotify">
+  <img src="https://img.shields.io/badge/Spotify-Listening_to_在加納共和國離婚-brightgreen?logo=spotify" alt="Spotify">
 </a>
 
   <img src="https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode" alt="VS Code">
