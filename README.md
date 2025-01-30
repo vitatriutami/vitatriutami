@@ -38,7 +38,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Discord-Idle-yellow?logo=discord" alt="Discord Status">
-  <a href="https://open.spotify.com/user/31ec5fqncyhmbwxkbsadfef3giq4" target="_blank">
+  <a href="https://open.spotify.com/user/31ec5fqncyhmbwxkbsadfef3giq4">
   <img src="https://img.shields.io/badge/Spotify-Not_Listening-lightgrey?logo=spotify" alt="Spotify">
 </a>
 
