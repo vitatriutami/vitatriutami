@@ -39,14 +39,15 @@ jobs:
           fi
 
           # Update VS Code Status Badge
-          CODING_ACTIVITY=$(echo "$DATA" | jq -r '.data.activities[]? | select(.name=="Visual Studio Code") | .state // empty')
-          if [[ "$CODING_ACTIVITY" == "Editing" || "$CODING_ACTIVITY" == "Working on a project" ]]; then
-            VS_BADGE="https://img.shields.io/badge/VS_Code-Coding-blue?logo=visualstudiocode"
-          elif [[ -n "$CODING_ACTIVITY" ]]; then
+          CODING_ACTIVITY=$(echo "$DATA" | jq -r '.data.activities[]? | select(.name=="Code" or .name=="Visual Studio Code") | .details // empty')
+          if [[ "$CODING_ACTIVITY" == "Idling" ]]; then
             VS_BADGE="https://img.shields.io/badge/VS_Code-Idle-yellow?logo=visualstudiocode"
+          elif [[ -n "$CODING_ACTIVITY" ]]; then
+            VS_BADGE="https://img.shields.io/badge/VS_Code-Coding-blue?logo=visualstudiocode"
           else
             VS_BADGE="https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode"
           fi
+
 
 
           # Update README.md badges in <img> tags
