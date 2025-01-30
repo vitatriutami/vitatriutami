@@ -42,7 +42,7 @@
     <img src="https://img.shields.io/badge/Discord-Online-brightgreen?logo=discord" alt="Discord Status">
   </a>
   <a href="https://open.spotify.com/user/31ec5fqncyhmbwxkbsadfef3giq4">
-    <img src="https://img.shields.io/badge/Spotify-Not_Listening-lightgrey?logo=spotify" alt="Spotify">
+    <img src="https://img.shields.io/badge/Spotify-Listening_to_Loveable-brightgreen?logo=spotify" alt="Spotify">
   </a>
   <img src="https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode" alt="VS Code">
 </p>
