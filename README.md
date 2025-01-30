@@ -31,6 +31,7 @@
   <img src="https://skillicons.dev/icons?i=aws&theme=light" title="AWS" width="40">
   <img src="https://skillicons.dev/icons?i=firebase&theme=light" title="Firebase" width="40">
   <img src="https://skillicons.dev/icons?i=nginx&theme=light" title="Nginx" width="40">
+    <img src="https://logowik.com/content/uploads/images/storybook-icon6958.logowik.com.webp" title="Storybook" width="40">
   <img src="https://skillicons.dev/icons?i=cypress&theme=light" title="Cypress" width="40">
   <img src="https://skillicons.dev/icons?i=jest&theme=light" title="Jest" width="40">
   
