@@ -42,7 +42,7 @@
   <img src="https://img.shields.io/badge/Spotify-Listening_to_等你下課-brightgreen?logo=spotify" alt="Spotify">
 </a>
 
-  <img src="https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode" alt="VS Code">
+  <img src="https://img.shields.io/badge/VS_Code-Idle-yellow?logo=visualstudiocode" alt="VS Code">
 </p>
 
 <details>
