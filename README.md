@@ -39,10 +39,10 @@
 
 <p align="center">
   <a href="https://discordapp.com/users/788036014202945546">
-    <img src="https://img.shields.io/badge/Discord-Offline-lightgrey?logo=discord" alt="Discord Status">
+    <img src="https://img.shields.io/badge/Discord-Online-brightgreen?logo=discord" alt="Discord Status">
   </a>
   <a href="https://open.spotify.com/user/31ec5fqncyhmbwxkbsadfef3giq4">
-    <img src="https://img.shields.io/badge/Spotify-Not_Listening-lightgrey?logo=spotify" alt="Spotify">
+    <img src="https://img.shields.io/badge/Spotify-Listening_to_Don't_Go_Breaking_My_Heart-brightgreen?logo=spotify" alt="Spotify">
   </a>
   <img src="https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode" alt="VS Code">
 </p>
