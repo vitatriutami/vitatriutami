@@ -35,6 +35,7 @@
   <img src="./assets/square-tanstack.png" title="React Query" width="40">
   <img src="./assets/square-jotai.png" title="Jotai" width="40">
   <img src="./assets/square-redux.png" title="Redux" width="40">
+  <img src="./assets/square-recoil.png" title="Recoil" width="40">
   <img src="https://skillicons.dev/icons?i=cypress&theme=light" title="Cypress" width="40">
   <img src="https://skillicons.dev/icons?i=jest&theme=light" title="Jest" width="40">
 </p>
