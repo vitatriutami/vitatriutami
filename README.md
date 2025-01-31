@@ -22,6 +22,7 @@
   <img src="https://skillicons.dev/icons?i=react&theme=light" title="React.js" width="40">
   <img src="https://skillicons.dev/icons?i=nextjs&theme=light" title="Next.js" width="40">
   <img src="https://skillicons.dev/icons?i=vue&theme=light" title="Vue.js" width="40">
+  <img src="./assets/square-pinia.png" title="Pinia" width="40">
   <img src="https://skillicons.dev/icons?i=angular&theme=light" title="Angular" width="40">
   <img src="https://skillicons.dev/icons?i=mongodb&theme=light" title="MongoDB" width="40">
   <img src="https://skillicons.dev/icons?i=prisma&theme=light" title="Prisma ORM" width="40">
