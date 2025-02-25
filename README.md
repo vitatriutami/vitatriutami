@@ -46,7 +46,7 @@ I'm **Vita** – a frontend-focused fullstack developer and maker who enjoys bui
     <img src="https://img.shields.io/badge/Discord-Online-brightgreen?logo=discord" alt="Discord Status">
   </a>
   <a href="https://open.spotify.com/user/31ec5fqncyhmbwxkbsadfef3giq4">
-    <img src="https://img.shields.io/badge/Spotify-Listening_to_A_Day-brightgreen?logo=spotify" alt="Spotify">
+    <img src="https://img.shields.io/badge/Spotify-Listening_to_Like_a_Moonlight_(From_"Love_Scout"_:_Original_Soundtrack)-brightgreen?logo=spotify" alt="Spotify">
   </a>
   <img src="https://img.shields.io/badge/VS_Code-Not_Coding-lightgrey?logo=visualstudiocode" alt="VS Code">
 </p>
