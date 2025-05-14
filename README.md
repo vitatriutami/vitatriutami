@@ -48,7 +48,7 @@ I'm **Vita** – a fullstack developer and maker who enjoys building intuitive a
   <a href="https://open.spotify.com/user/31ec5fqncyhmbwxkbsadfef3giq4">
     <img src="https://img.shields.io/badge/Spotify-Not_Listening-lightgrey?logo=spotify" alt="Spotify">
   </a>
-  <img src="https://img.shields.io/badge/VS_Code-Idle-yellow?logo=visualstudiocode" alt="VS Code">
+  <img src="https://img.shields.io/badge/VS_Code-Coding-blue?logo=visualstudiocode" alt="VS Code">
 </p>
 
 <details>
